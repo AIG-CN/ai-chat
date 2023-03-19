@@ -69,7 +69,7 @@ function handleRegenerate() {
         {{ dateTime }}
       </p> -->
       <div
-        class="flex items-end gap-1 mt-2 flex-row"
+        class="flex items-end gap-1 flex-row"
       >
         <TextComponent
           ref="textRef"

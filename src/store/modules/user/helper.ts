@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://kolly-imgstore.oss-cn-shenzhen.aliyuncs.com/img/chat-user.png',
       name: 'ChatGPT',
-      description: '微信公众号 |  <a href="https://mp.weixin.qq.com/s/IAzyKY2BGJhMan829VsmbQ" class="text-blue-500" target="_blank" >AI创作营</a>',
+      description: '微信公众号 | <a href="https://mp.weixin.qq.com/s/IAzyKY2BGJhMan829VsmbQ" class="text-blue-500" target="_blank" >AI创作营</a>',
     },
   }
 }
