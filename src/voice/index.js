@@ -10,7 +10,7 @@
  * https://www.xfyun.cn/document/error-code （code返回错误码时必看）
  * 语音听写流式WebAPI 服务，方言或小语种试用方法：登陆开放平台https://www.xfyun.cn/后，在控制台--语音听写（流式）--方言/语种处添加
  * 添加后会显示该方言/语种的参数值
- * 测试推送
+ * 测试推送111
  */
 
 // 1. websocket连接：判断浏览器是否兼容，获取websocket url并连接，这里为了方便本地生成websocket url
