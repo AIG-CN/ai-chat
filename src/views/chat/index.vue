@@ -474,8 +474,12 @@ onUnmounted(() => {
         >
           <template v-if="!dataSources.length">
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
-              <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>欢迎使用 ChatGPT 中文版</span>
+              <!-- <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" /> -->
+              <!-- <span>欢迎使用 ChatGPT 中文版</span> -->
+            </div>
+            <div class="flex items-center justify-center text-center mt-2">
+              <span class="text-2xl font-extrabold mr-1">欢迎使用 ChatGPT</span>
+              <span class="text-2xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-600">聊天机器人</span>
             </div>
           </template>
           <template v-else>

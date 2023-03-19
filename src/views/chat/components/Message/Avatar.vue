@@ -19,6 +19,7 @@ const avatar = computed(() => userStore.userInfo.avatar)
   <template v-if="image">
     <NAvatar v-if="isString(avatar) && avatar.length > 0" :src="avatar" :fallback-src="defaultAvatar" />
     <NAvatar v-else round :src="defaultAvatar" />
+    <!-- <NAvatar src="https://kolly-imgstore.oss-cn-shenzhen.aliyuncs.com/img/chat-user.png" /> -->
   </template>
   <NAvatar v-else src="https://kolly-imgstore.oss-cn-shenzhen.aliyuncs.com/img/chatgpt-icons.png" />
   <!-- <span v-else class="text-[28px] dark:text-white">
