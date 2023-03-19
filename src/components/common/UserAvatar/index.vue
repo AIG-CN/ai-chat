@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { NAvatar } from 'naive-ui'
 import { useUserStore } from '@/store'
-import defaultAvatar from '@/assets/avatar.jpg'
+import defaultAvatar from '@/assets/avatar1.jpg'
 import { isString } from '@/utils/is'
 
 const userStore = useUserStore()
@@ -13,7 +13,7 @@ const userInfo = computed(() => userStore.userInfo)
 <template>
   <div class="flex items-center overflow-hidden">
     <div class="w-10 h-10 overflow-hidden rounded-full shrink-0">
-      <template v-if="isString(userInfo.avatar) && userInfo.avatar.length > 0">
+      <template v-if="isString(userInfo.avatar) && userInfo.avatar.length > 0 && false">
         <NAvatar
           size="large"
           round
