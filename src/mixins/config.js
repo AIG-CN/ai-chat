@@ -1,5 +1,6 @@
 import { computed } from 'vue'
 import locales from './locales.json'
+// 录音配置
 const defaultConfig = {
   color: '#333',
   tipPosition: 'top',
